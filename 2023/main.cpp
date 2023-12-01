@@ -1,4 +1,5 @@
 #include "Day00/Day00.hpp"
+#include "Day01/Day01.hpp"
 
 #include <iostream>
 #include <chrono>
@@ -99,8 +100,8 @@ int main()
 {
 	std::vector<Test> tests{};
 
-	Test Day00Part1Test("Day 0, Part 1", Day00Part1);
-	tests.push_back(Day00Part1Test);
+	Test Day01Part1Test("Day 1, Part 1", Day01Part1);
+	tests.push_back(Day01Part1Test);
 
 	RunTests(tests);
 
